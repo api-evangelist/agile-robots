@@ -1,8 +1,27 @@
 aid: agile-robots
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/agile-robots.png
 name: Agile Robots
-description: 'Agile Robots is a company surfaced as a portfolio company of hongshan and added to the API
-  Evangelist network as a stub for enrichment. Sector: technology. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Agile Robots SE is a Munich-based robotics and artificial intelligence company founded in 2018 as a
+  spin-off from the German Aerospace Center (DLR) Institute of Robotics and Mechatronics. The company
+  develops force-sensitive industrial and service robots, robotic arms (Diana series), grippers and hands
+  (Agile Hand), mobile robotics, and the AgileCore / AgileAI software platform that lets system integrators
+  and operators build and deploy AI-driven automation for the automotive, consumer electronics, healthcare,
+  and service industries. Headquartered in Munich's Sendling district with manufacturing across Europe,
+  China, and India, Agile Robots reached unicorn valuation in a 2021 Series C and is backed by investors
+  including Hongshan (Sequoia Capital China). This profile is maintained in the API Evangelist network;
+  Agile Robots does not currently publish a public developer portal, REST API, or first-party SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/agile-robots/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,9 +35,35 @@ modified: '2026-07-17'
 tags:
 - Company
 - Technology
+- Robotics
+- Artificial Intelligence
+- Automation
+- Industrial Robots
+- Manufacturing
+- Germany
 apis: []
+common:
+- type: DomainSecurity
+  url: security/agile-robots-domain-security.yml
+- type: Website
+  url: https://www.agile-robots.com/en/
+- type: Blog
+  url: https://www.agile-robots.com/en/news/
+- type: Support
+  url: https://www.agile-robots.com/en/lets-connect/
+- type: PrivacyPolicy
+  url: https://www.agile-robots.com/en/privacy/
+- type: TermsOfService
+  url: https://www.agile-robots.com/en/general-terms-and-conditions/
+- type: GitHubOrganization
+  url: https://github.com/AgileRobotsAG
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
